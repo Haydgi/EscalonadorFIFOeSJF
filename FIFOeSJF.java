@@ -57,7 +57,7 @@ public class FIFOeSJF {
 		
 		int idProcesso[] = new int[numProcessos];
 		int tempoConclusao[] = new int[numProcessos];
-		int tempoInicio[] = new int[numProcessos]; // Nova variável para armazenar o tempo de início de cada processo
+		int tempoInicio[] = new int[numProcessos];
 		int tempoRetorno[] = new int[numProcessos];
 		int tempoEspera[] = new int[numProcessos];
 		int finalizado[] = new int[numProcessos];
